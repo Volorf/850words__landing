@@ -84,6 +84,10 @@ body {
     padding-top: 56px;
   }
 
+  .app_screen {
+    box-shadow: 48px 48px 96px rgba(0,0,0,0.1);
+  }
+
 }
 
 @media (max-width: 414px) {
@@ -97,11 +101,11 @@ body {
   }
 
   .first {
-    padding: 0;
+    padding: 0px;
     align-items: flex-start;
   }
   .second {
-    padding-left: 0;
+    padding-left: 0px;
     padding-top: 96px;
   }
   .desc {
